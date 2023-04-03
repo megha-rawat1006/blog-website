@@ -1,0 +1,44 @@
+﻿body
+{
+    background-color:black;
+    align-content:center;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 2fr ;
+    column-gap: 150px;
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+    max-height: 20%;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.text {
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-family:Brush Script MT;
+}
+
+.text h2{
+    font-size: 20px;
+    font-family:Comic Sans MS;
+}
+.text h3 {
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+
