@@ -1,0 +1,21 @@
+﻿.topnav {
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    height: 50px;
+}
+
+.topnav a {
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Gill Sans MT;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: green;
+}

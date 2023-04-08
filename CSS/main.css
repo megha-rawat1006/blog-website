@@ -1,0 +1,57 @@
+﻿@import "header.css";
+@import "nav.css";
+@import "blog.css";
+@import "footer.css";
+
+.home-container1 {
+    background-image: url(image.jpg);
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.home-container1 p {
+    color: black;
+    font-size: 50px;
+    font-family: Segoe UI;
+}
+
+.home-container2 p {
+    color: black;
+    font-size: 30px;
+    font-family: Segoe UI;
+    text-align: center;
+}
+
+.info-details a {
+    text-decoration: none;
+    color: blue;
+    font-family: Segoe UI;
+}
+
+.info-details a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+@media(min-width:599px){
+    .blog-box {
+        width: 10%;
+    }
+
+}
+@media(min-width:600px) and (max-width:900px){
+    .blog-box{
+        width:30%;
+    }
+}
+
+@media(min-width:901px) {
+    .blog-box {
+        width: 50%;
+    }
+}
