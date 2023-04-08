@@ -1,0 +1,20 @@
+﻿.header {
+    padding: 20px 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.header a {
+    background-color: white;
+    color: slateblue;
+    padding: 12px;
+    text-align: center;
+    font-size: 80px;
+    border-radius: 4px;
+    font-family: cursive;
+}
+
+.header a:hover {
+    background-color: azure;
+    color: black;
+}
